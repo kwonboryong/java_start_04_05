@@ -1,8 +1,8 @@
 package pack_chapter05;
 
-import pack_chapter05.a.User; // "이 경로에서 가져다 쓸거야!" 라는 의미 <import 패키지명.하위패키지명.클래스명;>
+import pack_chapter05.a.User; // "pack.a의 클래스 User을 가져다 쓸거야!" 라는 의미 <import 패키지명.하위패키지명.클래스명;>
 
-import pack_chapter05.a.*; // "이 경로의 패키지에 있는 걸 다 가져다 쓸거야!" 라는 의미 <import 패키지명.하위패키지명.*;>
+import pack_chapter05.a.*; // "pack.a의 클래스를 다 가져다 쓸거야!" 라는 의미 <import 패키지명.하위패키지명.*;>
 
 public class PakageMain2 {
 
